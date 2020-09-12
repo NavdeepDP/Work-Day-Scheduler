@@ -62,7 +62,7 @@ $(document).ready(function () {
         var hourNow = timeNow.hour();
         console.log("now: " + hourNow);
         // Hard coding time for testing purpose
-        // hourNow = 12;
+        // hourNow = 10;
 
         for (var i = 0; i < 9; i++) {
 
