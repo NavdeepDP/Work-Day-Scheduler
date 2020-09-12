@@ -98,6 +98,7 @@ $(document).ready(function () {
 
             var eventText = getEventScheduled(currentRowTimeTag);
 
+            // textarea
             var newTextDiv = $("<div>")
             newTextDiv.addClass("col-sm-10 divPadding");
             var textAreaVar = $("<textarea>");
@@ -107,6 +108,7 @@ $(document).ready(function () {
             newTextDiv.append(textAreaVar);
             newRow.append(newTextDiv);
 
+            // save button
             var newBtnDiv = $("<div>")
             newBtnDiv.addClass("col-sm-1 divPadding");
             var btnVar = $("<button>");
